@@ -16,10 +16,11 @@ def name_to_color(name):
     # lowercased character ord() value rage is 97 to 122, substract 97, multiply by 8
     color = [(ord(c.lower())-97)*8 for c in name[:3]]
     return color
+known_faces = []
+known_names = []
 def setup():
     print('Loading known faces...')
-    known_faces = []
-    known_names = []
+    
 
     # We oranize known faces as subfolders of KNOWN_FACES_DIR
     # Each subfolder's name becomes our label (name)
