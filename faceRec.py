@@ -6,7 +6,7 @@ import time
 
 KNOWN_FACES_DIR = 'known_faces'
 UNKNOWN_FACES_DIR = 'unknown_faces'
-TOLERANCE = 0.6
+TOLERANCE = 0.5
 FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
 MODEL = 'cnn'  # default: 'hog', other one can be 'cnn' - CUDA accelerated (if available) deep-learning pretrained model
